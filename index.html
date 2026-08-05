@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JC Construcciones | Construcción con calidad y confianza</title>
+<meta name="description" content="JC Construcciones realiza losas, cerámica, antejardines, cierres perimetrales, porcelanato, gasfitería, pintura, electricidad, estructuras metálicas, portones, rejas, techumbres, estuco, radier y yeso. Cotización sin costo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Sprite de iconos (reutilizados con <use>) -->
+<svg style="display:none">
+  <symbol id="icon-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="m2 13 10 5 10-5"/><path d="m2 18 10 5 10-5"/></symbol>
+  <symbol id="icon-fence" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V9l3-4 3 4v12M11 21V9l3-4 3 4v12M18 21V9l3-4"/><path d="M2 13h20M2 17h20"/></symbol>
+  <symbol id="icon-tile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="8" height="8"/><rect x="13" y="3" width="8" height="8"/><rect x="3" y="13" width="8" height="8"/><rect x="13" y="13" width="8" height="8"/></symbol>
+  <symbol id="icon-drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2s7 8 7 13a7 7 0 1 1-14 0c0-5 7-13 7-13Z"/></symbol>
+  <symbol id="icon-roller" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="14" height="6" rx="1"/><path d="M8 10v4a2 2 0 0 0 2 2h1v5"/></symbol>
+  <symbol id="icon-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></symbol>
+  <symbol id="icon-frame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></symbol>
+  <symbol id="icon-gate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V6l4-3 4 3v15M12 21V6l4-3 4 3v15"/><circle cx="14" cy="13" r="1"/></symbol>
+  <symbol id="icon-roof" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m3 12 9-8 9 8"/><path d="M5 10v10h14V10"/></symbol>
+  <symbol id="icon-trowel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3 21 10l-8.5 8.5a2.1 2.1 0 0 1-3-3L18 6"/><path d="m3 21 4-4"/></symbol>
+  <symbol id="icon-foundation" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 20h20"/><path d="M4 20v-6h16v6"/><path d="M7 14V9h10v5"/></symbol>
+  <symbol id="icon-wall" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18M21 3v18M3 8h18M3 13h18M3 18h18"/></symbol>
+  <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></symbol>
+  <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2C10 21 3 14 3 6a2 2 0 0 1 1-2Z"/></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></symbol>
+  <symbol id="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.7 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-5-4.3-5.1-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.2.1.3 0 .5-.1.2-.2.3-.3.5-.2.2-.3.3-.5.5-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.2.5.1.7-.1.2-.2.7-.8.9-1.1.2-.3.4-.2.6-.1.2.1 1.5.7 1.8.8.3.1.5.2.5.3.1.2.1.7-.1 1.4Z"/></symbol>
+</svg>
+
+<header class="site-header" id="header">
+  <div class="container header-inner">
+    <a href="#inicio" class="logo"><span class="logo-text">JC <span>CONSTRUCCIONES</span></span></a>
+    <nav class="nav" id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a href="tel:+56928246628" class="header-phone"><svg width="18" height="18"><use href="#icon-phone"/></svg> +56 9 2824 6628</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg placeholder-img" data-slot="images/hero/hero-1.jpg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-grid"></div>
+    <div class="container hero-content">
+      <p class="eyebrow"><span class="dot"></span> levantando confianza, obra a obra</p>
+      <h1>JC<br>CONSTRUCCIONES</h1>
+      <p class="hero-text">Muros, techumbres, terminaciones y estructuras metálicas: nos hacemos cargo de cada etapa de tu proyecto con prolijidad, plazos claros y sin sorpresas en el presupuesto.</p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-primary">Solicitar Cotización</a>
+        <a href="#servicios" class="btn btn-outline">Ver Servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro section-grid section-grid-dark">
+    <div class="container intro-inner reveal">
+      <p class="eyebrow center"><span class="dot"></span> resultados garantizados y clientes que nos recomiendan</p>
+      <h2>CALIDAD Y CONFIANZA EN CADA<br>ETAPA DE TU OBRA</h2>
+      <a href="#contacto" class="btn btn-dark">Contáctanos <span>→</span></a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="services section-grid" id="servicios">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow light"><span class="dot"></span> de principio a fin</p>
+          <h2>SOLUCIONES COMPLETAS, DE LOS<br>CIMIENTOS AL ÚLTIMO DETALLE</h2>
+        </div>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-layers"/></svg></div>
+          <h3>Losas y Cerámica</h3>
+          <p>Losas sólidas y revestimientos cerámicos con un acabado prolijo, cuidando cada detalle del piso.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-fence"/></svg></div>
+          <h3>Antejardín y Cierres Perimetrales</h3>
+          <p>Diseñamos y levantamos cierres perimetrales y antejardines a medida, seguros y duraderos.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-tile"/></svg></div>
+          <h3>Porcelanato</h3>
+          <p>Colocamos porcelanato en pisos y muros, con terminaciones de primer nivel.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-drop"/></svg></div>
+          <h3>Gasfitería</h3>
+          <p>Reparamos e instalamos redes de agua, desagües y artefactos sanitarios.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-roller"/></svg></div>
+          <h3>Pintura</h3>
+          <p>Pintura interior y exterior con productos de calidad y un acabado parejo.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-bolt"/></svg></div>
+          <h3>Electricidad</h3>
+          <p>Instalaciones eléctricas domiciliarias, tableros y mantenciones en general.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-frame"/></svg></div>
+          <h3>Estructuras Metálicas</h3>
+          <p>Fabricamos y montamos estructuras metálicas para cualquier tipo de obra.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-gate"/></svg></div>
+          <h3>Portones y Rejas</h3>
+          <p>Diseñamos portones y rejas a medida, resistentes y con una terminación cuidada.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-roof"/></svg></div>
+          <h3>Techumbre</h3>
+          <p>Construimos y reparamos techumbres usando materiales de primera calidad.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-trowel"/></svg></div>
+          <h3>Estuco</h3>
+          <p>Aplicamos estuco en muros interiores y exteriores, dejando una superficie lisa y pareja.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-foundation"/></svg></div>
+          <h3>Radier</h3>
+          <p>Levantamos radieres para pisos, patios y bases de estructuras.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="26" height="26"><use href="#icon-wall"/></svg></div>
+          <h3>Yeso</h3>
+          <p>Trabajos en yeso y tabiquería para muros y cielorrasos interiores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="about section-grid section-grid-dark" id="nosotros">
+    <div class="container about-inner">
+      <div class="about-media reveal">
+        <div class="about-img placeholder-img logo-frame" data-slot="images/nosotros/nosotros-1.jpg"></div>
+        <div class="stat-badge">
+          <span class="badge-number">20+</span>
+          <span class="badge-text">AÑOS DE<br>EXPERIENCIA</span>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p class="eyebrow"><span class="dot"></span> quiénes somos</p>
+        <h2>DOS DÉCADAS DE OFICIO AL<br>SERVICIO DE TU PROYECTO</h2>
+        <p>En JC Construcciones acumulamos 20 años de oficio: cada faena la abordamos con seriedad, prolijidad y cumplimiento de plazos. Nuestro mejor respaldo son los clientes que ya confiaron en nosotros y hoy nos recomiendan.</p>
+        <p>Soy el maestro a cargo de cada obra. Cuando comienzo un proyecto nuevo, me concentro en llevarlo de principio a fin y en que cada detalle, por mínimo que sea, quede a la perfección. Según la magnitud del trabajo, coordino distintas cuadrillas —a veces un par de personas, otras veces equipos más grandes— pero siempre bajo mi supervisión directa.</p>
+        <ul class="checklist">
+          <li><svg width="18" height="18"><use href="#icon-check"/></svg> 20 años de oficio comprobado en terreno</li>
+          <li><svg width="18" height="18"><use href="#icon-check"/></svg> Clientes que nos recomiendan a ojos cerrados</li>
+          <li><svg width="18" height="18"><use href="#icon-check"/></svg> Soluciones para cualquier etapa de tu obra</li>
+          <li><svg width="18" height="18"><use href="#icon-check"/></svg> Cotización sin costo ni compromiso</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="projects section-grid section-grid-dark" id="proyectos">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow light"><span class="dot"></span> así construimos</p>
+          <h2>PROYECTOS QUE HABLAN<br>POR NOSOTROS</h2>
+        </div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card placeholder-img reveal" data-slot="images/proyectos/proyecto-1.jpg">
+          <div class="project-caption">
+            <h3>Salón de Eventos</h3>
+            <p>Espacios amplios y sin columnas para tus eventos: muros de hormigón armado que dan solidez, con techumbre en estructura metálica y cubierta de zinc, pensada para durar en el tiempo.</p>
+          </div>
+        </div>
+        <div class="project-card placeholder-img reveal" data-slot="images/proyectos/proyecto-2.jpg">
+          <div class="project-caption">
+            <h3>Salón de Eventos</h3>
+            <p>Los muros de hormigón armado ya en pie sostienen la estructura metálica y costaneras que recibirán la cubierta de zinc, la pieza que cierra la obra gruesa.</p>
+          </div>
+        </div>
+        <div class="project-card placeholder-img reveal" data-slot="images/proyectos/proyecto-3.jpg">
+          <div class="project-caption">
+            <h3>Habitaciones</h3>
+            <p>Dormitorios cómodos y bien logrados: tabiques en drywall sobre estructura metalcon, livianos y rápidos de montar, con piso porcelanato fácil de mantener y de aspecto elegante.</p>
+          </div>
+        </div>
+        <div class="project-card placeholder-img reveal" data-slot="images/proyectos/proyecto-4.jpg">
+          <div class="project-caption">
+            <h3>Habitaciones</h3>
+            <p>Pasillos y accesos con tabiquería en drywall sobre metalcon: muros a plomo y juntas selladas, sin fisuras ni humedad, listos para pintar.</p>
+          </div>
+        </div>
+        <div class="project-card placeholder-img reveal" data-slot="images/proyectos/proyecto-5.jpg">
+          <div class="project-caption">
+            <h3>Antejardín</h3>
+            <p>Le damos identidad y seguridad a la entrada de tu hogar: portón y puerta de acceso en estructura metálica, con muro revestido en ladrillo a la vista y un sello moderno que dura en el tiempo.</p>
+          </div>
+        </div>
+        <div class="project-card placeholder-img reveal" data-slot="images/proyectos/proyecto-6.jpg">
+          <div class="project-caption">
+            <h3>Techumbre</h3>
+            <p>Techos armados en perfiles de acero galvanizado (metalcon), livianos pero muy resistentes, con aislación térmica de lana de vidrio para mantener tu hogar fresco en verano y cálido en invierno.</p>
+          </div>
+        </div>
+        <div class="project-card placeholder-img reveal" data-slot="images/proyectos/proyecto-7.jpg">
+          <div class="project-caption">
+            <h3>Ampliación de Casa</h3>
+            <p>Creamos un nuevo ambiente en tu hogar sin obras invasivas: estructura metalcon revestida en drywall, con juntas ya afinadas y a un paso de la pintura final.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact section-grid" id="contacto">
+    <div class="container contact-inner">
+      <div class="contact-info reveal">
+        <p class="eyebrow light"><span class="dot"></span> hablemos de tu proyecto</p>
+        <h2>SOLICITA TU<br>COTIZACIÓN GRATIS</h2>
+        <p class="contact-lead">Cuéntanos qué necesitas y te responderemos a la brevedad, sin compromiso.</p>
+        <a class="contact-link" href="tel:+56928246628"><span class="contact-icon"><svg width="20" height="20"><use href="#icon-phone"/></svg></span> +56 9 2824 6628</a>
+        <a class="contact-link" href="mailto:jcb24775@gmail.com"><span class="contact-icon"><svg width="20" height="20"><use href="#icon-mail"/></svg></span> jcb24775@gmail.com</a>
+        <a class="contact-link" href="https://wa.me/56928246628" target="_blank" rel="noopener"><span class="contact-icon"><svg width="20" height="20"><use href="#icon-whatsapp"/></svg></span> WhatsApp</a>
+      </div>
+      <form class="contact-form reveal" id="contactForm">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="correo" placeholder="Correo electrónico" required>
+        <input type="tel" name="telefono" placeholder="Teléfono" required>
+        <textarea name="mensaje" rows="4" placeholder="Cuéntanos qué necesitas hacer" required></textarea>
+        <button type="submit" class="btn btn-primary full">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer section-grid">
+  <div class="container footer-inner">
+    <a href="#inicio" class="logo"><span class="logo-text">JC <span>CONSTRUCCIONES</span></span></a>
+    <p>© <span id="year"></span> JC Construcciones. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/56928246628" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Escríbenos por WhatsApp">
+  <svg width="30" height="30"><use href="#icon-whatsapp"/></svg>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
