@@ -37,12 +37,6 @@ Cada recuadro de foto en el sitio busca una imagen en una ruta fija. Basta con g
 
 Si prefieres otros nombres de archivo, avisa para actualizar las rutas en `index.html`.
 
-## Datos de contacto (editar en `index.html` si cambian)
-
-- Teléfono: +56 9 2824 6628
-- Correo: jcb24775@gmail.com
-- WhatsApp: enlace directo a `wa.me/56928246628`
-
 ## Cómo ejecutarlo localmente
 
 No requiere instalación. Basta con abrir `index.html` en cualquier navegador. Para servirlo con un servidor local (opcional, evita restricciones de algunos navegadores con rutas locales):
