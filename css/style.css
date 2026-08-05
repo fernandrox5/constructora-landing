@@ -301,4 +301,6 @@ img{ max-width:100%; display:block; }
   .projects-grid{ grid-template-columns:1fr; }
   .stat-badge{ padding:20px 24px; }
   .badge-number{ font-size:36px; }
+  .hero-actions{ padding-bottom:70px; }
+  .whatsapp-float{ width:48px; height:48px; right:14px; bottom:14px; }
 }
